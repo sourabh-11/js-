@@ -1,0 +1,57 @@
+.Container{
+    width: 100%;
+    min-height:100vh ;
+    background: linear-gradient(135deg,#cf9aff,#95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.Container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.Container h1 img{
+   width: 60px;
+}
+.Container button img{
+   width: 25px;
+   margin-right: 8px;
+   
+}
+.Container button {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    outline: 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    align-items: center;
+    background: linear-gradient(#9418fd,#571094);
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: #fff;
+    color: #333;
+    padding: 20px 0;
+    margin: 20px 0;
+   outline: none;
+   padding: 20px;
+   border-radius: 8px;
+
+}
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    
+}
